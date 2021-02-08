@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(48, 42, 42);
+}
+#tv{
+    margin: auto;
+    margin-top: 7%;
+    padding-top: 5px;
+    background-color:gray;
+    border-radius: 10px;
+    height: 465px;
+    max-width: 780px;
+    box-shadow: 5px silver;
+}
+#container{
+    background-color: black;
+    padding-top: 15px;
+    border-radius: 10px;
+    height: 460px;
+    width: 780px;
+}
+#screen{
+    height: 410px;
+    width: 740px;
+    background-color: black;
+    margin-left: 20px;
+}
+#video{
+    width: 740px;
+    height: 100%;
+    box-shadow: 0 0 100px 0 rgba(200,235,255,0.4); 
+	  box-shadow: 0 0 95px 0 rgba(200,230,255,0.45); 
+}
+
+section{
+    padding-left: 20px;
+    padding-top: 4px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+button{
+    margin-left: 2px;
+}
+img{
+  width: 740px;
+  height: 100%;
+}
