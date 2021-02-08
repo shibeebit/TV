@@ -16,7 +16,6 @@ powerBtn.addEventListener('click', ()=>{
         screen.innerHTML = '<img src="black-screen.png">';
         power = 0;
     }
-    console.log(power);
 });
 
 nextBtn.addEventListener('click', ()=>{
