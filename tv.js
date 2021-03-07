@@ -19,21 +19,23 @@ powerBtn.addEventListener('click', ()=>{
 });
 
 nextBtn.addEventListener('click', ()=>{
+    if (power === 0){
     if (vidPlaying<(vids.length-1)){
         vidPlaying++;
     } else{
         vidPlaying = 0;
     }
     video.src = vids[vidPlaying];
-});
+}});
 
 backBtn.addEventListener('click', ()=>{
+    if (power === 1){
     if (vidPlaying>0){
         vidPlaying--;
     } else{
         vidPlaying = vids.length-1;
     }
     video.src = vids[vidPlaying];
-});
+}});
 
 
